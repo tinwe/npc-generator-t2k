@@ -1,0 +1,37 @@
+{
+    "name": "npc-generator-t2k",
+    "title": "NPC Generator T2k",
+    "description": "NPC Generator for Twilight: 2000 and Foundry VTT.",
+    "version": "1.0.8",
+    "author": "Daniel Roos",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "packs": [
+        {
+            "name": "npc-generator-macro",
+            "label": "NPC Generator Macro",
+            "path": "./packs/items.db",
+            "entity": "Macro",
+	    "system": "t2k4e",
+            "type": "Macro"
+        }
+    ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "t2k4e",
+        "type": "system",
+        "manifest": "https://github.com/fvtt-fria-ligan/twilight2000-foundry-vtt/releases/download/latest/system.json",
+        "compatibility": {
+          "minimum": "2",
+          "verified": "10"
+        }
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.285",
+    "maximum": "10"
+  }
+}
